@@ -21,6 +21,13 @@ h2{
     color:#184f63; /* dark-blue*/ ;
 }
 
+
+.sharp-corners,
+.sharp-corners *{
+    border-radius: 0;
+}
+
+
 /*About Section*/
 
 #about{
@@ -62,7 +69,7 @@ h2{
     padding: 5% 7%;
 }
 
-@media screen and (min-width:1200px;){
+@media screen and (min-width:1200px){
     #portfolio .card-text{
         min-height:auto;
     }
